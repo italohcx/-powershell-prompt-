@@ -19,7 +19,7 @@ Instalar o GOW alternative to Cygwin caso ache interessante ter comandos do UNIX
 
 * [Donwload GOW](https://github.com/bmatzelle/gow)
 
-Testado nos seguintes sistemas operacionais: `Linux` , `Windows 10` e `Windows 11`
+Testado nos seguintes sistemas operacionais: `Windows 10` e `Windows 11`
 
 # 🗄️Módulos utilizados: 
 
@@ -29,7 +29,6 @@ oh-my-posh      | Personalização com temas
 posh-git        | Integração com git
 Terminal-Icons  | Exibição de icons no terminal
 PSReadLine      | Edição de linha de comando
-
 
 # 📀 Processo de Instalação:
 
@@ -92,7 +91,7 @@ Uma vez com o arquivo aberto, bastar copiar e colar os imports abaixo:
 - Import-Module posh-git 
 - Import-Module oh-my-posh
 - Import-Module -Name Terminal-Icons
-- Set-PoshPrompt Star
+- Set-PoshPrompt stelbent.minimal
 
 ### Autocomplete, keybinds e histórico de comandos
 
@@ -112,10 +111,10 @@ Para realizar o processo de personalização do theme do terminal, bastar ir no 
 
 * [Themes disponíveis](https://ohmyposh.dev/docs/themes)
 
-Uma vez selecionado bastar altera o nome na frente do import Set-PoshPromp do arquivo $profile
-
+Uma vez selecionado bastar altera o parâmetro na frente do import Set-PoshPrompt do arquivo $profile com o nome do theme escolhido e salvar
 
 - Set-PoshPrompt stelbent.minimal
 
+![](https://github.com/italohcx/-powershell-prompt-/blob/main/example_theme.png)
 
-  
+
