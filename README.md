@@ -86,24 +86,28 @@ code $profile
 
 Uma vez com o arquivo aberto, bastar copiar e colar os imports abaixo:
 
+~~~PoweShell
 ### Configurações do PowerShell
 
-- Import-Module posh-git 
-- Import-Module oh-my-posh
-- Import-Module -Name Terminal-Icons
-- Set-PoshPrompt stelbent.minimal
+Import-Module posh-git 
+Import-Module oh-my-posh
+Import-Module -Name Terminal-Icons
+
+### Configuração do theme oh-my-posh
+
+Set-PoshPrompt stelbent.minimal
 
 ### Autocomplete, keybinds e histórico de comandos
 
-- Set-PSReadlineKeyHandler -Key Tab -Function MenuComplete
-- Set-PSReadLineKeyHandler -Key UpArrow -Function HistorySearchBackward
-- Set-PSReadLineKeyHandler -Key DownArrow -Function HistorySearchForward
-- Set-PSReadlineOption -HistorySearchCursorMovesToEnd
+Set-PSReadlineKeyHandler -Key Tab -Function MenuComplete
+Set-PSReadLineKeyHandler -Key UpArrow -Function HistorySearchBackward
+Set-PSReadLineKeyHandler -Key DownArrow -Function HistorySearchForward
+Set-PSReadlineOption -HistorySearchCursorMovesToEnd
 
 ### Autosugestões do PSReadline
-- Set-PSReadlineOption -ShowToolTips
-- Set-PSReadlineOption -PredictionSource History
-
+Set-PSReadlineOption -ShowToolTips
+Set-PSReadlineOption -PredictionSource History
+~~~
 
 # 🎨 Alterando o theme do terminal
 
