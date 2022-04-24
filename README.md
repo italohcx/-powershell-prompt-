@@ -1,5 +1,7 @@
-<<<<<<< HEAD
+
 # Configuração PowerShell 
+
+![](https://github.com/italohcx/-powershell-prompt-/blob/main/picture.png)
 
 ## Instalar font compativel 
 
@@ -152,7 +154,7 @@ Install-Module -Name Terminal-Icons -Repository PSGallery
 New-item -type file -force $profile   
 ~~~
 
-5- Abrindo o arquivo profile
+7- Abrindo o arquivo profile
 
 ~~~PoweShell
 notepad $profile
@@ -179,7 +181,3 @@ code . $profile
 - Set-PSReadlineOption -ShowToolTips
 - Set-PSReadlineOption -PredictionSource History
   
-
-
-
->>>>>>> 2d0c0baa62b6174535c881eb1efaf489fcab0d01
