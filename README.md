@@ -1,7 +1,7 @@
 
 # Pesrsonalização do terminal PowerShell 
 
-![](https://github.com/italohcx/-powershell-prompt-/blob/main/pictures/picture.png)
+![](https://github.com/italohcx/-powershell-prompt-/blob/main/screenshots/screenshot.png)
 
 # 💻 Pré-requisitos
 
@@ -119,6 +119,6 @@ Uma vez selecionado bastar altera o parâmetro na frente do import Set-PoshPromp
 
 - Set-PoshPrompt stelbent.minimal
 
-![](https://github.com/italohcx/-powershell-prompt-/blob/main/pictures/example_theme.png)
+![](https://github.com/italohcx/-powershell-prompt-/blob/main/screenshots/example_theme.png)
 
 
