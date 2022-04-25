@@ -59,7 +59,16 @@ Install-Module oh-my-posh -Scope CurrentUser
 ~~~PoweShell
  Install-Module -Name PSReadLine -AllowPrerelease -Scope CurrentUser -Force -SkipPublisherCheck
 ~~~
-
+6.1 Caso o comando acima não execute 
+~~~PoweShell
+Get-ExecutionPolicy
+ ~~~
+~~~PoweShell
+ Set-ExecutionPolicy Unrestricted
+ ~~~
+ ~~~PoweShell
+Get-ExecutionPolicy
+ ~~~
 7- Instalação do módulo powerShell Terminal Icons
 
 ~~~PoweShell
